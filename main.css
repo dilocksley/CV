@@ -1,0 +1,99 @@
+.left {
+    background-color:#3a8a5be1;
+    color: #fdfdfd;
+    height: 100%;
+    width: 30%;
+}
+  
+.right {
+   background-color: #fdfdfd;
+   color: #3a8a5be1;
+   height: 100%;
+   width: 70%;
+   margin-left: 20px;
+   margin-top: 50px;
+}
+
+.CV {
+    display: flex; 
+}
+
+.languages-item {
+    display: flex; 
+    justify-content: space-evenly;
+    
+}
+
+.language-circles{
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: right;
+}
+
+.circles{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.full-circle{
+    background-color: #fdfdfd;
+}
+
+.empty-circle{
+    background-color: #d0dad49c;
+}
+
+.line{
+    background-color: #d0dad49c;
+    height: 5px;
+    width: 100px;
+    border-radius: 10%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-block{
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+}
+
+.language{
+    display: flex;
+    justify-content: left;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    grid-template-rows: 50px 200px 80px;
+    gap: 5px;
+}
+
+.grid-item{
+    height: 200px;
+    width: 1000px;
+}
+
+.company{
+    font-size: medium;
+}
